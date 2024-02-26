@@ -8,4 +8,8 @@ public class Quadrat extends Figura
     }
     public double areas () {return this.l1*this.l1;}
 
+    @Override
+    public double area() {
+        return 0;
+    }
 }
