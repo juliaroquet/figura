@@ -8,5 +8,8 @@ public class Triangle extends Figura
         this.base=base;
 
     }
-    public double areas () {return (this.altura*this.base)/2 ;}
+    public double calcularArea ()
+    {
+        return (this.altura*this.base)/2 ;
+    }
 }

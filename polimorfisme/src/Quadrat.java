@@ -6,10 +6,9 @@ public class Quadrat extends Figura
         this.l1=l1;
 
     }
-    public double areas () {return this.l1*this.l1;}
-
-    @Override
-    public double area() {
-        return 0;
+    public double calcularArea ()
+    {
+        return this.l1 * this.l1;
     }
+
 }
