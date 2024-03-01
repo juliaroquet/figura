@@ -32,6 +32,7 @@ public abstract class Figura
         java.util.Arrays.sort(figuras, new java.util.Comparator<Figura>()
         {
             public int compare (Figura f1, Figura f2)
+
             {
                 return Double.compare(f1.calcularArea(), f2.calcularArea());
             }
